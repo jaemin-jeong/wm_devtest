@@ -42,7 +42,7 @@ ex) http://localhost:3000/tokens/usdtusd/midPirce?startTime=2023-04-28&endTime=2
 
 ### 30초마다 실행되는 스케줄러 작성
 
-- Bitfinex 컨트랙트에서 토큰 정보 조회&DB 저장하는 API 호출하는 스크립트: bitfinex_schedular.sh
+- Bitfinex API를 통해 토큰 정보 조회&DB 저장하는 API 호출하는 스크립트: bitfinex_schedular.sh
 - Chainlink 컨트랙트에서 토큰 정보 조회&DB 저장하는 API 호출하는 스크립트: chainlink_schedular.sh
 
 1. crontab -e
